@@ -137,6 +137,69 @@ a:visited {
     box-sizing: border-box;
 }
 
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color:#333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box; 
+}
+
+.p-box{
+    position: relative;
+    width:  800px;
+    height: 500px;
+    border:1px solid #000;
+    margin-top: 30px;
+    background-image: url('../images/sb.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 140px;
+    right: 250px;
+}
+
+.p-box h2 {
+    position: absolute;
+    top: 140px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: red;
+}
+
+.my-list li:nth-child(5){
+    background:yellow;
+}
+
+.my-list li:nth-child(even){
+    background:grey;
+}
+
+
 
 
 
